@@ -39,7 +39,6 @@ public class Rectangle {
     public void printDeskripsi() {
         System.out.println("ID      : " + id);
         System.out.println("Panjang : " + panjang);
-        System.out.println("Lebar   : " + lebar);
         System.out.println("Keliling: " + getKeliling());
         System.out.println("Luas    : " + getLuas());
     }
