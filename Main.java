@@ -57,9 +57,9 @@ public class Main {
 
     // Method untuk mengambil nilai input dari user dan membuat objek Circle
     public static Circle inputCircle(Scanner scan) {
-        System.out.print("Masukkan ID        : "); // Meminta user untuk memasukkan ID
+        System.out.print("Isikan ID        : "); // Meminta user untuk memasukkan ID
         int id = scan.nextInt(); // Membaca ID dari inputan user
-        System.out.print("Masukkan Radius    : "); // Meminta user untuk memasukkan nilai radius
+        System.out.print("Isikan Radius    : "); // Meminta user untuk memasukkan nilai radius
         double radius = scan.nextDouble(); // Membaca radius dari inputan user
         Circle circle = new Circle(); // Membuat objek circle
         circle.setId(id); // Mengeset ID ke objek circle
@@ -69,11 +69,11 @@ public class Main {
 
     // Method untuk mengambil input dan membuat objek Rectangle
     public static Rectangle inputRectangle(Scanner scan) {
-        System.out.print("Masukkan ID        : "); // Meminta user memasukkan ID
+        System.out.print("Isikan ID        : "); // Meminta user memasukkan ID
         int id = scan.nextInt(); // Membaca ID dari inputan user
-        System.out.print("Masukkan Panjang   : "); // Meminta user memasukkan nilai panjang rectangle
+        System.out.print("Isikan Panjang   : "); // Meminta user memasukkan nilai panjang rectangle
         double panjang = scan.nextDouble(); // Membaca nilai panjang dari inputan user
-        System.out.print("Masukkan Lebar     : "); // Meminta user memasukkan nilai lebar rectangle
+        System.out.print("Isikan Lebar     : "); // Meminta user memasukkan nilai lebar rectangle
         double lebar = scan.nextDouble(); // Membaca nilai lebar dari inputan user
         return new Rectangle(id, panjang, lebar); // Mengembalikan objek Rectangle yang sudah dibuat dengan parameter
     }
